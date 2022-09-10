@@ -1,0 +1,10 @@
+# codeforces-basic-sheet-1
+#include<stdio.h>
+int main()
+{
+    long long int x,y,z;
+    scanf("%lld %lld",&x,&y);
+    z=(x%10)+(y%10);
+    printf("%lld\n",z);
+    return 0;
+}
