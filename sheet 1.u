@@ -1,0 +1,17 @@
+# codeforces-basic-sheet-1
+#include<stdio.h>
+int main()
+{
+    int x;
+    double d,rest;
+    scanf("%lf",&d);
+    x = d;
+    rest = d-x;
+    if(rest==0)
+    {
+        printf("int %d",x);
+    }
+    else{
+        printf("float %d %.3lf",x,rest);
+    }
+}
