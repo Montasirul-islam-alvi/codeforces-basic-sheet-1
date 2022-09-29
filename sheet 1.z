@@ -1,0 +1,17 @@
+# codeforces-basic-sheet-1
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double  a,b,c,d,e,f;
+    scanf("%lf %lf %lf %lf",&a,&b,&c,&d);
+    e=b*log(a);
+    f=d*log(c);
+    if(e>f){
+        printf("YES\n");
+    }
+    else{
+        printf("NO\n");
+    }
+
+}
